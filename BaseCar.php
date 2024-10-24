@@ -9,11 +9,6 @@ abstract class BaseCar
     private string $brand;
     private float $carrying;
 
-    public function __construct()
-    {
-
-    }
-
     public function getCarType(): string
     {
         return $this->carType;

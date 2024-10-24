@@ -29,8 +29,7 @@ class CarCreator
                 $car = new Truck();
                 $car->setBodyWidth($width)
                     ->setBodyHeight($height)
-                    ->setBodyLength($length)
-                    ->SetBodyVolume();
+                    ->setBodyLength($length);
             } break;
             case 'spec_machine': {
                 $car = new SpecMachine();

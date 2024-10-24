@@ -47,11 +47,6 @@ class Truck extends Car
 
     public function getBodyVolume(): float
     {
-        return $this->bodyVolume;
-    }
-    public function SetBodyVolume(): self
-    {
-        $this->bodyVolume = $this->bodyWidth * $this->bodyLength * $this->bodyHeight;
-        return $this;
+        return $this->bodyWidth * $this->bodyLength * $this->bodyHeight;
     }
 }

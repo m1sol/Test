@@ -8,7 +8,6 @@ abstract class BaseCar
     private string $photoFileName;
     private string $brand;
     private float $carrying;
-    private string $photoFileExt;
 
     public function __construct()
     {
